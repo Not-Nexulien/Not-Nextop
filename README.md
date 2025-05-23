@@ -1,9 +1,9 @@
-# Vesktop
+# Not-Nextop
 
-Vesktop is a custom Discord desktop app
+Not-Nextop is a custom Discord desktop app
 
 **Main features**:
-- Vencord preinstalled
+- Not-Nexulien preinstalled
 - Much more lightweight and faster than the official Discord app
 - Linux Screenshare with sound & wayland
 - Much better privacy, since Discord has no access to your system
