@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component type="desktop-application">
   <!--Created with jdAppStreamEdit 7.1-->
-  <id>dev.vencord.Vesktop</id>
+  <id>xyz.defautluser0.notnextop</id>
   <name>Vesktop</name>
   <summary>Snappier Discord app with Vencord</summary>
   <developer_name>Vencord Contributors</developer_name>
@@ -10,8 +10,8 @@
   <project_license>GPL-3.0</project_license>
   <project_group>Vencord</project_group>
   <description>
-    <p>Vesktop is a cross platform desktop app aiming to give you a snappier Discord experience with Vencord pre-installed.</p>
-    <p>Vesktop comes bundled with Venmic, a purpose-built library to provide functioning audio screenshare.</p>
+    <p>Not-Nextop is a cross platform desktop app aiming to give you a snappier Discord experience with Vencord pre-installed.</p>
+    <p>Not-Nextop comes bundled with Venmic, a purpose-built library to provide functioning audio screenshare.</p>
   </description>
   <screenshots>
     <screenshot type="default">
@@ -48,7 +48,7 @@
         <p>What's Changed</p>
         <ul>
           <li>Now remembers your previous Screenshare resolution &amp; FPS</li>
-          <li>You can now disable the splash screen in Vesktop Settings</li>
+          <li>You can now disable the splash screen in Not-Nextop Settings</li>
           <li>Now supports deep links (opening Discord Message Links in Vesktop) by @Covkie</li>
           <li>Now supports discord:// uri scheme, allowing it to open things like invites from your Browser even while closed by @Covkie</li>
           <li>Added 4k resolution to screenshare by @makindotcc</li>
@@ -117,12 +117,12 @@
       <description>
         <p>New Features</p>
         <ul>
-          <li>Added categories to Vesktop settings to reduce visual clutter by @justin13888</li>
+          <li>Added categories to Not-Nextop settings to reduce visual clutter by @justin13888</li>
           <li>Added support for Vencord's transparent window options</li>
         </ul>
         <p>Fixes</p>
         <ul>
-          <li>Fixed ugly error popups when starting Vesktop without working internet connection</li>
+          <li>Fixed ugly error popups when starting Not-Nextop without working internet connection</li>
           <li>Fixed popout title bars on Windows</li>
           <li>Fixed spellcheck entries</li>
           <li>Fixed screenshare audio using microphone on debian, by @Curve</li>
@@ -135,7 +135,7 @@
       <description>
         <p>What's Changed</p>
         <ul>
-          <li>fully renamed to Vesktop. You will likely have to login to Discord again. You might have to re-create your vesktop shortcut</li>
+          <li>fully renamed to Vesktop. You will likely have to login to Discord again. You might have to re-create your Not-Nextop shortcut</li>
           <li>added option to disable smooth scrolling by @ZirixCZ</li>
           <li>added setting to disable hardware acceleration by @zt64</li>
           <li>fixed adding connections</li>
