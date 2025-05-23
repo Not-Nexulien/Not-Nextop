@@ -4,7 +4,7 @@
     "private": true,
     "description": "Not-Nextop is a custom Discord desktop app",
     "keywords": [],
-    "homepage": "https://github.com/defautluser0/not-nextop",
+    "homepage": "https://github.com/not-nexulien/not-nextop",
     "license": "GPL-3.0-or-later",
     "author": "defautluser0 <saygex8361@gmail.com>",
     "main": "dist/js/main.js",
