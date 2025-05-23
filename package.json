@@ -1,12 +1,12 @@
 {
-    "name": "nexop",
+    "name": "not-nextop",
     "version": "1.5.6",
     "private": true,
-    "description": "Vesktop is a custom Discord desktop app",
+    "description": "Not-Nextop is a custom Discord desktop app",
     "keywords": [],
-    "homepage": "https://nexulien.github.io/",
+    "homepage": "https://github.com/defautluser0/not-nextop",
     "license": "GPL-3.0-or-later",
-    "author": "JaegerwaldDev <jaegerwald.dev@gmail.com>",
+    "author": "defautluser0 <saygex8361@gmail.com>",
     "main": "dist/js/main.js",
     "scripts": {
         "build": "tsx scripts/build/build.mts",
@@ -63,8 +63,8 @@
         "pnpm": ">=8"
     },
     "build": {
-        "appId": "dev.nexulien.nexop",
-        "productName": "Nexop",
+        "appId": "xyz.defautluser0.notnextop",
+        "productName": "Not-Nextop",
         "files": [
             "!*",
             "!node_modules",
@@ -116,13 +116,13 @@
             ],
             "desktop": {
                 "entry": {
-                    "Name": "Nexop",
+                    "Name": "Not-Nextop",
                     "GenericName": "Internet Messenger",
                     "Type": "Application",
                     "Categories": "Network;InstantMessaging;Chat;",
-                    "Keywords": "discord;vencord;nexulien;electron;chat;",
+                    "Keywords": "discord;vencord;not-nexulien;electron;chat;",
                     "MimeType": "x-scheme-handler/discord",
-                    "StartupWMClass": "nexop"
+                    "StartupWMClass": "not-nextop"
                 }
             }
         },
