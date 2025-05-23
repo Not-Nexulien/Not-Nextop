@@ -50,7 +50,7 @@ const SettingsOptions: Record<string, Array<BooleanSetting | SettingsComponent>>
         {
             key: "staticTitle",
             title: "Static Title",
-            description: 'Makes the window title "Vesktop" instead of changing to the current page',
+            description: 'Makes the window title "Not-Nextop" instead of changing to the current page',
             defaultValue: false
         },
         {
@@ -79,14 +79,14 @@ const SettingsOptions: Record<string, Array<BooleanSetting | SettingsComponent>>
         {
             key: "tray",
             title: "Tray Icon",
-            description: "Add a tray icon for Vesktop",
+            description: "Add a tray icon for Not-Nextop",
             defaultValue: true,
             invisible: () => isMac
         },
         {
             key: "minimizeToTray",
             title: "Minimize to tray",
-            description: "Hitting X will make Vesktop minimize to the tray instead of closing",
+            description: "Hitting X will make Not-Nextop minimize to the tray instead of closing",
             defaultValue: true,
             invisible: () => isMac,
             disabled: () => Settings.store.tray === false
@@ -122,7 +122,7 @@ const SettingsOptions: Record<string, Array<BooleanSetting | SettingsComponent>>
         {
             key: "openLinksWithElectron",
             title: "Open Links in app (experimental)",
-            description: "Opens links in a new Vesktop window instead of your web browser",
+            description: "Opens links in a new Not-Nextop window instead of your web browser",
             defaultValue: false
         }
     ],
@@ -168,7 +168,7 @@ export default ErrorBoundary.wrap(
         return (
             <Forms.FormSection>
                 <Text variant="heading-lg/semibold" style={{ color: "var(--header-primary)" }} tag="h2">
-                    Vesktop Settings
+                    Not-Nextop Settings
                 </Text>
 
                 <SettingsSections />
@@ -177,6 +177,6 @@ export default ErrorBoundary.wrap(
     },
     {
         message:
-            "Failed to render the Vesktop Settings tab. If this issue persists, try to right click the Vesktop tray icon, then click 'Repair Vencord'. And make sure your Vesktop is up to date."
+            "Failed to render the Not-Nextop Settings tab. If this issue persists, try to right click the Not-Nextop tray icon, then click 'Repair Not-Nexulien'. And make sure your Not-Nextop is up to date."
     }
 );

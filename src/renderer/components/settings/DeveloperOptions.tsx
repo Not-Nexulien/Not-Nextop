@@ -85,7 +85,7 @@ const VencordLocationPicker: SettingsComponent = ({ settings }) => {
                                 break;
                             case "ok":
                                 Toasts.show({
-                                    message: "Vencord install changed. Fully restart Vesktop to apply.",
+                                    message: "Not-Nexulien install changed. Fully restart Not-Nextop to apply.",
                                     id: Toasts.genId(),
                                     type: Toasts.Type.SUCCESS
                                 });
@@ -93,7 +93,7 @@ const VencordLocationPicker: SettingsComponent = ({ settings }) => {
                             case "invalid":
                                 Toasts.show({
                                     message:
-                                        "You did not choose a valid Vencord install. Make sure you're selecting the dist dir!",
+                                        "You did not choose a valid Not-Nexulien install. Make sure you're selecting the dist dir!",
                                     id: Toasts.genId(),
                                     type: Toasts.Type.FAILURE
                                 });

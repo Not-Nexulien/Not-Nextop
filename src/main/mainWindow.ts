@@ -395,7 +395,7 @@ function initStaticTitle(win: BrowserWindow) {
 
     addSettingsListener("staticTitle", enabled => {
         if (enabled) {
-            win.setTitle("Vesktop");
+            win.setTitle("Not-Nextop");
             win.on("page-title-updated", listener);
         } else {
             win.off("page-title-updated", listener);
