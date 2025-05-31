@@ -53,7 +53,7 @@ Packaging will create builds in the dist/ folder
 
 ```sh
 git clone https://github.com/Not-Nexulien/Not-Nextop
-cd Vesktop
+cd Not-Nextop
 
 # Install Dependencies
 pnpm i
