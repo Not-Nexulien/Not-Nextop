@@ -1,4 +1,4 @@
-name: Update metainfo on release
+name: Undraft release for metadata
 
 on:
     release:
