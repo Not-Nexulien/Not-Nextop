@@ -447,7 +447,7 @@ function createMainWindow() {
             transparencyOption !== "none" && {
                 transparent: true
             }),
-        ...(staticTitle && { title: "Vesktop" }),
+        ...(staticTitle && { title: "Not-Nextop" }),
         ...(process.platform === "darwin" && getDarwinOptions()),
         ...getWindowBoundsOptions(),
         autoHideMenuBar: enableMenu
