@@ -21,7 +21,7 @@ if (!IS_DEV) {
     autoUpdater.checkForUpdatesAndNotify();
 }
 
-console.log("Vesktop v" + app.getVersion());
+console.log("Not-Nextop v" + app.getVersion());
 
 // Make the Vencord files use our DATA_DIR
 process.env.VENCORD_USER_DATA_DIR = DATA_DIR;
@@ -99,7 +99,7 @@ function init() {
     });
 
     app.whenReady().then(async () => {
-        if (process.platform === "win32") app.setAppUserModelId("dev.vencord.vesktop");
+        if (process.platform === "win32") app.setAppUserModelId("xyz.defautluser0.not-nextop");
 
         registerScreenShareHandler();
         registerMediaPermissionsHandler();
@@ -114,10 +114,10 @@ function init() {
 
 if (!app.requestSingleInstanceLock({ IS_DEV })) {
     if (IS_DEV) {
-        console.log("Vesktop is already running. Quitting previous instance...");
+        console.log("Not-Nextop is already running. Quitting previous instance...");
         init();
     } else {
-        console.log("Vesktop is already running. Quitting...");
+        console.log("Not-Nextop is already running. Quitting...");
         app.quit();
     }
 } else {

@@ -28,7 +28,7 @@ function openDeveloperOptionsModal(settings: Settings) {
         <ModalRoot {...props} size={ModalSize.MEDIUM}>
             <ModalHeader>
                 <Text variant="heading-lg/semibold" style={{ flexGrow: 1 }}>
-                    Vesktop Developer Options
+                    Not-Nextop Developer Options
                 </Text>
                 <ModalCloseButton onClick={props.onClose} />
             </ModalHeader>

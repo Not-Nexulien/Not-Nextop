@@ -46,7 +46,7 @@ export default tseslint.config(
                 "error",
                 {
                     files: ["scripts/header.txt"],
-                    templates: { author: [".*", "Vendicated and Vesktop contributors"] }
+                    templates: { author: [".*", "defautluser0 and Not-Nextop contributors"] }
                 }
             ],
 

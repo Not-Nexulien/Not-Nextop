@@ -2,25 +2,25 @@
 <component type="desktop-application">
   <!--Created with jdAppStreamEdit 7.1-->
   <id>xyz.defautluser0.notnextop</id>
-  <name>Vesktop</name>
+  <name>Not-Nextop</name>
   <summary>Snappier Discord app with Vencord</summary>
   <developer_name>Vencord Contributors</developer_name>
-  <launchable type="desktop-id">dev.vencord.Vesktop.desktop</launchable>
+  <launchable type="desktop-id">xyz.defautluser0.Not-Nextop.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
-  <project_group>Vencord</project_group>
+  <project_group>Not-Nextop</project_group>
   <description>
-    <p>Not-Nextop is a cross platform desktop app aiming to give you a snappier Discord experience with Vencord pre-installed.</p>
+    <p>Not-Nextop is a cross platform desktop app aiming to give you a snappier Discord experience with Not-Nexulien pre-installed.</p>
     <p>Not-Nextop comes bundled with Venmic, a purpose-built library to provide functioning audio screenshare.</p>
   </description>
   <screenshots>
     <screenshot type="default">
-      <caption>Vencord settings page and about window open</caption>
-      <image type="source">https://vencord.dev/assets/screenshots/vesktop-1-appstream.png</image>
+      <caption>Not-Nextop settings page and about window open</caption>
+      <image type="source">https://private-user-images.githubusercontent.com/108409246/448583404-e7d0593f-9bb6-430c-9d14-80c8f3859e13.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg4MTA5MzgsIm5iZiI6MTc0ODgxMDYzOCwicGF0aCI6Ii8xMDg0MDkyNDYvNDQ4NTgzNDA0LWU3ZDA1OTNmLTliYjYtNDMwYy05ZDE0LTgwYzhmMzg1OWUxMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYwMVQyMDQzNThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00ZTQ1ODc5YmJkMDhlODBjYjM0OTQ5NjJhODdmNWI1NDYxNjA3ZWI0ZGNkMDg1OTBjMGQyMzAyOGNjYzFkYmQ2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.KQvWCFrUpjtV9OtkkqZx-1EPnJY-vBphojBMSnQG8D0</image>
     </screenshot>
     <screenshot>
       <caption>A dialog showing screenshare options</caption>
-      <image type="source">https://vencord.dev/assets/screenshots/vesktop-2-appstream.png</image>
+      <image type="source">https://private-user-images.githubusercontent.com/108409246/448583441-70b163cb-74f8-4a3c-b752-db0c699d2da1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg4MTA5MzgsIm5iZiI6MTc0ODgxMDYzOCwicGF0aCI6Ii8xMDg0MDkyNDYvNDQ4NTgzNDQxLTcwYjE2M2NiLTc0ZjgtNGEzYy1iNzUyLWRiMGM2OTlkMmRhMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYwMVQyMDQzNThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wZTMzN2RhMTNkMDMyOTg0MjM3Mjk0NDQ5OGU5OTcyOWY4YTQ4YWExZjhhYWJlZGQ0YWRhYWI5YzI3ZGQ4YWQ4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.oI0lkueoCp0NNyZKIHlESullCVoTrZ9zlEVEBwx1Y0A</image>
     </screenshot>
     <screenshot>
       <caption>A screenshot of a Discord server</caption>
@@ -274,7 +274,7 @@
   <keywords>
     <keyword>Discord</keyword>
     <keyword>Vencord</keyword>
-    <keyword>Vesktop</keyword>
+    <keyword>Not-Nextop</keyword>
     <keyword>Privacy</keyword>
     <keyword>Mod</keyword>
   </keywords>

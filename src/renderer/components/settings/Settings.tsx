@@ -64,7 +64,7 @@ const SettingsOptions: Record<string, Array<BooleanSetting | SettingsComponent>>
             key: "enableSplashScreen",
             title: "Enable Splash Screen",
             description:
-                "Shows a small splash screen while Vesktop is loading. Disabling this option will show the main window earlier while it's still loading.",
+                "Shows a small splash screen while Not-Nextop is loading. Disabling this option will show the main window earlier while it's still loading.",
             defaultValue: true
         },
         {
@@ -94,7 +94,7 @@ const SettingsOptions: Record<string, Array<BooleanSetting | SettingsComponent>>
         {
             key: "clickTrayToShowHide",
             title: "Hide/Show on tray click",
-            description: "Left clicking tray icon will toggle the vesktop window visibility.",
+            description: "Left clicking tray icon will toggle the Not-Nextop window visibility.",
             defaultValue: false
         },
         {
