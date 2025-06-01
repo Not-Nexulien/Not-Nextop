@@ -1,0 +1,21 @@
+name: Update metainfo on release
+
+on:
+    release:
+        types:
+            - unpublished
+    workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+    update:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Undraft the release
+              run: |
+                  gh release edit "${{ github.event.release.tag_name }}" --draft=false
+              env:
+                  GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
