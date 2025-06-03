@@ -28,6 +28,14 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.6.4" date="2025-06-03" type="stable">
+      <url>https://github.com/Not-Nexulien/Not-Nextop/releases/tag/v1.6.4</url>
+      <description/>
+    </release>
+    <release version="1.6.2" date="2025-06-03" type="stable">
+      <url>https://github.com/Not-Nexulien/Not-Nextop/releases/tag/v1.6.2</url>
+      <description/>
+    </release>
     <release version="1.5.6" date="2025-04-13" type="stable">
       <url>https://github.com/Vencord/Vesktop/releases/tag/v1.5.6</url>
       <description>
