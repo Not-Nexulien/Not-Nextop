@@ -164,24 +164,24 @@ function initMenuBar(win: BrowserWindow) {
 
     const subMenu = [
         {
-            label: "About Vesktop",
+            label: "About Not-Nextop",
             click: createAboutWindow
         },
         {
-            label: "Force Update Vencord",
+            label: "Force Update Not-Nexulien",
             async click() {
                 await downloadVencordFiles();
                 app.relaunch();
                 app.quit();
             },
-            toolTip: "Vesktop will automatically restart after this operation"
+            toolTip: "Not-Nextop will automatically restart after this operation"
         },
         {
-            label: "Reset Vesktop",
+            label: "Reset Not-Nextop",
             async click() {
                 await clearData(win);
             },
-            toolTip: "Vesktop will automatically restart after this operation"
+            toolTip: "Not-Nextop will automatically restart after this operation"
         },
         {
             label: "Relaunch",
@@ -248,7 +248,7 @@ function initMenuBar(win: BrowserWindow) {
 
     const menuItems = [
         {
-            label: "Vesktop",
+            label: "Not-Nextop",
             role: "appMenu",
             submenu: subMenu.filter(isTruthy)
         },

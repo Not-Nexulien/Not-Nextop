@@ -179,15 +179,10 @@ export default ErrorBoundary.wrap(
     function SettingsUI() {
         return (
             <Forms.FormSection>
-<<<<<<< HEAD
-                <Text variant="heading-lg/semibold" style={{ color: "var(--header-primary)" }} tag="h2">
-                    Not-Nextop Settings
-=======
                 {/* FIXME: Outdated type */}
                 {/* @ts-expect-error Outdated type */}
                 <Text variant="heading-xl/semibold" color="header-primary" className="vcd-settings-title">
-                    Vesktop Settings
->>>>>>> 27293d4ae9db3a395325f7993cf3cc74a21e0122
+                    Not-Nextop Settings
                 </Text>
                 <SettingsSections />
             </Forms.FormSection>
